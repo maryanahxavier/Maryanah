@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    height: 100vh;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #3d3d3d;
+    width: 100%;
+}
+header div p{
+    color: aliceblue;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.barraPesquisa{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    background-color: #171717;
+    margin: 15px;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.barraPesquisa img{
+    background-color: #CCCCCC;
+    padding: 10px;
+}
+
+.login{
+    width:20%;
+    margin: 15px;
+}
+
+
+.login img{
+    background-color: #3d3d3d;
+
+}
+
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    justify-content: space-between;
+}
+
+.comentarios{
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+}
+
+ main div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+    width: 55%;
+ }
+  main div p{
+      background-color: #E5B95E;
+      font-size: 40px;
+      padding: 10px;
+
+  }
+
+  .comentarios img{
+      width: 50px;
+      margin: 10px;
+  }
+  .comentarios h1{
+      width: 100%;
+      background-color: #c4c4c4;
+      font-size:medium;
+      padding: 15px;
+  }
+
+ 
+ 
